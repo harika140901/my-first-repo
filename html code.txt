@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> cyber security</title>
+<body bgcolor="powderblue">
+<form action="enrolment form" method="post">
+<fieldset>
+<legend><b><font size="6" color="blue" face="gabriola">Personal Information</legend></font></b>
+<label><b><font size="5"><i>Candidate's Name</b></label></font></i><br>
+<input type="text" name="Candidate's Name" placeholder="write here">
+<br>
+<label><b><font size="5"><i>Gender: </b></label></font></i><br>
+<font size="5" face="sanserif"><i>
+<input type="radio" name="gender" value="Male"> Male
+<br>
+<input type="radio" name="gender" value="Female">Female
+<br>
+<input type="radio" name="gender" value="Others"> Others
+<br></i></font>
+</fieldset>
+<fieldset>
+<legend><b><font size="6" color="blue" face="gabriola">Login Details</legend></b></font>
+<label><b><font size="5"><i>Email ID:</b></i></label></font><br>
+<input type="text" name="email" placeholder="write your email ID">
+<br>
+<label><b><font size="5"><i>Password:</i></b></label></font><br>
+<input type="password" name="pwd" placeholder="type here"><br></fieldset>
+<fieldset>
+<legend><b><font size="6" color="blue" face="gabriola">Residential Details</legend></b></font>.<font size="4" face="sanserif"><i>
+ <label><font size="5"><b><i>House no./flat no:</b></i></label></font><br><textarea ></textarea><br>
+<label><font size="5"><b><i>Locality:</b></i></label></font><br><textarea ></textarea><br>
+<label><font size="5"><b><i>City:</b></i></label></font><br><textarea ></textarea><br>
+<label><font size="5"><b><i>State:</b></i></label></font><br><textarea ></textarea><br>
+<label><font size="5"><b><i>Nationality:</b></i></label></font><br>
+<select>
+<option value="indian">Indian</option><br>
+<option value="others">Others</option><br>
+</select></fieldset>
+<button ><font size="6" color="red"><b>Submit</button></font></b><br>
+</form>
+</body>
+</html>
